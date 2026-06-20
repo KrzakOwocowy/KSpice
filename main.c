@@ -281,7 +281,7 @@ int main(int argc, char *argv[]){
     }
     fclose(file);
 
-    printf("Creating Conductance matrix... \n");
+    printf("Creating conductance matrix... \n");
     struct Matrix *psMatrix = psCreateMatrix(uiNodeCount+uiCountComponentsByType(Inductance)+uiCountComponentsByType(VoltageSource));
     long double *pldCurrentVector = (long double*)calloc((uiNodeCount+uiCountComponentsByType(Inductance)+uiCountComponentsByType(VoltageSource)), sizeof(long double));
     long double *pldSolutionVector = (long double*)calloc((uiNodeCount+uiCountComponentsByType(Inductance)+uiCountComponentsByType(VoltageSource)), sizeof(long double));
