@@ -1,12 +1,12 @@
 you can run the solver using the provided makefile:
 
-make
+```make```
 
-make run ARGS="data.txt"
+```make run ARGS="data.txt"```
 
-data.txt (or any other txt file) provides the circuit netlist formatted as follows:
+```data.txt``` (or any other txt file) provides the circuit netlist formatted as follows:
 
-TNNN N1 N2 V
+```TNNN N1 N2 V```
 
 where:
 T: a single character corresponding to component type
