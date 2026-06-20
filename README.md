@@ -21,6 +21,6 @@ N1, N2: node names where N1 is higher voltage for sources, from 1 to 20 characte
 V: element value, max 30 characters in length
 
 example values:
-10k
--15.2u
-50
+```10k```
+```-15.2u```
+```50```
